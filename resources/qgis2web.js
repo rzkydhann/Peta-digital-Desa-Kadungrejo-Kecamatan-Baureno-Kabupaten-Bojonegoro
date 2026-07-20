@@ -322,7 +322,7 @@ function onPointerMove(evt) {
                         })
                     });
                 }
-                }
+
                 featureOverlay.getSource().addFeature(currentFeature);
                 featureOverlay.setStyle(highlightStyle);
             }
