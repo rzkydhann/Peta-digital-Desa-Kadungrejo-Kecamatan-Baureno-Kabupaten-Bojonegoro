@@ -2,7 +2,8 @@ var wms_layers = [];
 
 
         var lyr_WorldImageryClarityBeta_0 = new ol.layer.Tile({
-            'title': 'World Imagery (Clarity) Beta','opacity': 1.000000,
+            'title': 'World Imagery (Clarity) Beta',
+            'opacity': 1.000000,
             
             
             source: new ol.source.XYZ({
