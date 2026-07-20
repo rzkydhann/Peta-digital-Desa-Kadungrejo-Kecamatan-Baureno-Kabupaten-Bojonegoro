@@ -4,15 +4,7 @@ function categories_ADMINISTRASI_AR_DESAKEL_1(feature, value, size, resolution, 
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-    switch(valueStr) {default:
-            return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(227,26,28,1.0)', lineDash: [3.8,1.9], lineCap: 'butt', lineJoin: 'miter', width: 1.9}),fill: new ol.style.Fill({color: 'rgba(109,28,238,1.0)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })];
-			break;
-
+    switch(valueStr) {
         case 'Alasgung':
             return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(227,26,28,1.0)', lineDash: [3.8,1.9], lineCap: 'butt', lineJoin: 'miter', width: 1.9}),fill: new ol.style.Fill({color: 'rgba(230,91,98,1.0)'}),
