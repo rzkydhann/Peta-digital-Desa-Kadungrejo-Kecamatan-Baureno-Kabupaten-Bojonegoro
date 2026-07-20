@@ -313,10 +313,15 @@ function onPointerMove(evt) {
 
                 } else {
                     highlightStyle = new ol.style.Style({
+                        stroke: new ol.style.Stroke({
+                            color: '#ff0000',
+                            width: 2
+                        }),
                         fill: new ol.style.Fill({
-                            color: 'rgba(255, 255, 0, 1.00)'
+                            color: 'rgba(255,255,255,0)'
                         })
-                    })
+                    });
+                }
                 }
                 featureOverlay.getSource().addFeature(currentFeature);
                 featureOverlay.setStyle(highlightStyle);
