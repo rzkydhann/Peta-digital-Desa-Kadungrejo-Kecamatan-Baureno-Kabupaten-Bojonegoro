@@ -9,10 +9,10 @@ var style_SARANAIBADAH_10 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "13.0px \'Open Sans\', sans-serif";
+    var labelFont = "bold 13.0px \'Open Sans\', sans-serif";
     var labelFill = "#323232";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var bufferColor = "#ffffff";
+    var bufferWidth = 1.0;
     var textAlign = 'left';
     var offsetX = 8;
     var offsetY = 3;
